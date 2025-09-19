@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "form container">
+        <h2>Registration form</h2>
+        <form>
+            <l--name-->
+                <lable for = "name">name</lable>
+                <input type = "text" id = "name"
+                placeholder = "Enter your name" required><br><br>
+            </l--name-->
+             <l--email-->
+                <lable for = "Email">Email</lable>
+                <input type = "Email" id = "Email"
+                placeholder = "Enter your Email" required><br><br>
+            </l--email-->
+             <l--possword-->
+                <lable for = "Password">Password</lable>
+                <input type = "Password" id = "Password"
+                placeholder = "Enter your Password" required><br><br>
+            </l--password-->
+            <l--gender-->
+                <label>Gender</label>
+                <div class = "radio-group">
+                    <label><input type = "radio" name = "gender" value = "Female" >Female</label>
+                    <lable><input type = "radio" name = "gender" value = "Male" >Male</lable>
+                </div>
+            </l--gender-->
+            <l--country-->
+                <label for = "Country"></label>
+                <select id = "Country" name = "Country" required>
+                    <option value =  "">Select your country</option>
+                    <option value =  "UK">UK</option>
+                    <option value =  "INDIA">INDIA</option>
+                    <option value =  "CANADA">CANADA</option>
+                    <option value =  "SINGAPORE">SINGAPORE</option>
+                </select>
+            </l--country-->
+            <l--Message-->
+                <lable for = "Message">Message</lable>
+                <textarea id = "Message" name = "Message" placeholder = "Write your message here"></textarea>
+                <button type = "submit" >submit</button>
+            </l--Message-->
+        </form>
+    </div>  
+</body>
+</html>
